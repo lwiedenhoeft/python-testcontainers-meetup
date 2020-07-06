@@ -1,7 +1,7 @@
 from testcontainers.core.waiting_utils import wait_for_logs
 from testcontainers.core.container import DockerContainer
 
-from simple_http_server import SimpleHTTPServer
+from run import SimpleHTTPServer
 
 HOST = 'localhost'
 RABBIT_PORT = 5672

@@ -31,10 +31,10 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         with pika.BlockingConnection(parameters) as connection:
             channel = connection.channel()
 
-            channel.queue_declare('test_queue')
+            channel.queue_declare('practice_queue')
 
             channel.basic_publish(exchange = '',
-                                  routing_key = 'test_queue',
+                                  routing_key = 'practice_queue',
                                   body = body)
 
         self.send_response(201)

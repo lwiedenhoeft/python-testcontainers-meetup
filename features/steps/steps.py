@@ -7,7 +7,7 @@ import pika
 import requests
 import unittest
 
-TEST_QUEUE = 'test_queue'
+TEST_QUEUE = 'practice_queue'
 
 @when('a GET request is made to the simple webserver')
 def a_GET_request_is_made_to_the_simple_webserver(context):
