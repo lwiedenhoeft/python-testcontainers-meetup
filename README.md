@@ -6,8 +6,7 @@
 
 We try to demonstrate the following points:
 
-1. Integration of testcontainers-python with [behave](https://behave.readthedocs.io/en/latest/) (or similar python 
-Cucumber port).
+1. Integration of testcontainers-python with [behave](https://behave.readthedocs.io/en/latest/).
 2. The spinning up of a generic container - running RabbitMQ in this case.
 3. Waiting for the application running in the container to finish initializing.
 4. Interacting with the application running inside the test container.
