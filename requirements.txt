@@ -2,7 +2,7 @@ behave==1.2.6
 blindspin==2.0.1
 certifi==2020.12.5
 chardet==4.0.0
-colorama==0.4.4
+colorama==0.4.6
 crayons==0.4.0
 docker==4.4.1
 idna==3.0
