@@ -7,7 +7,7 @@ crayons==0.4.0
 docker==4.4.1
 idna==3.0
 parse==1.18.0
-parse-type==0.5.2
+parse-type==0.6.2
 pika==1.1.0
 PyHamcrest==2.0.2
 requests==2.25.1
